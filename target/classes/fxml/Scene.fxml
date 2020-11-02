@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" onKeyPressed="#keyPressed" onKeyReleased="#keyReleased" prefHeight="729.0" prefWidth="595.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dylan.FXMLController">
+   <children>
+      <ImageView fitHeight="597.0" fitWidth="559.0" layoutX="31.0" layoutY="124.0" opacity="0.11" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ghost.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="rctArea5" arcHeight="5.0" arcWidth="5.0" disable="true" fill="DODGERBLUE" height="31.0" layoutX="101.0" layoutY="468.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="135.0" />
+      <Rectangle fx:id="rctArea8" arcHeight="5.0" arcWidth="5.0" disable="true" fill="DODGERBLUE" height="31.0" layoutX="101.0" layoutY="623.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="135.0" />
+      <Rectangle fx:id="rctArea7" arcHeight="5.0" arcWidth="5.0" disable="true" fill="DODGERBLUE" height="31.0" layoutX="359.0" layoutY="622.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="135.0" />
+      <Rectangle fx:id="rctArea6" arcHeight="5.0" arcWidth="5.0" disable="true" fill="DODGERBLUE" height="31.0" layoutX="357.0" layoutY="468.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="135.0" />
+      <Rectangle fx:id="rctArea4" arcHeight="5.0" arcWidth="5.0" disable="true" fill="DODGERBLUE" height="31.0" layoutX="101.0" layoutY="325.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="135.0" />
+      <Rectangle fx:id="rctArea3" arcHeight="5.0" arcWidth="5.0" disable="true" fill="DODGERBLUE" height="31.0" layoutX="101.0" layoutY="176.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="135.0" />
+      <Rectangle fx:id="rctArea2" arcHeight="5.0" arcWidth="5.0" disable="true" fill="DODGERBLUE" height="31.0" layoutX="356.0" layoutY="172.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="135.0" />
+      <Rectangle fx:id="rctArea1" arcHeight="5.0" arcWidth="5.0" disable="true" fill="DODGERBLUE" height="31.0" layoutX="356.0" layoutY="324.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="135.0" />
+      <ImageView fx:id="imgCoin1" fitHeight="43.0" fitWidth="30.0" layoutX="160.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../coin.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="rctWall1" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="663.0" layoutY="79.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="rctWall2" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="10.0" layoutX="150.0" layoutY="303.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="rctWall3" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="72.0" layoutX="248.0" layoutY="154.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="rctWall4" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="72.0" layoutX="248.0" layoutY="303.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="rctWall5" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="65.0" layoutX="506.0" layoutY="12.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" visible="false" width="62.0" />
+      <Rectangle fx:id="rctWall6" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="72.0" layoutX="78.0" layoutY="157.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="rctWall7" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="80.0" layoutX="78.0" layoutY="298.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="rctWall8" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="10.0" layoutX="336.0" layoutY="302.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="rctWall9" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="72.0" layoutX="506.0" layoutY="151.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="rctWall10" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="72.0" layoutX="505.0" layoutY="307.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="rctWall11" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="10.0" layoutX="408.0" layoutY="149.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="rctWall12" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="72.0" layoutX="336.0" layoutY="155.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="rctWall13" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="10.0" layoutX="407.0" layoutY="369.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="rctWall14" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="72.0" layoutX="336.0" layoutY="302.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="rctWall15" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="663.0" layoutX="585.0" layoutY="79.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="rctWall16" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="10.0" layoutX="150.0" layoutY="598.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="rctWall17" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="80.0" layoutX="248.0" layoutY="441.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="rctWall18" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="80.0" layoutX="248.0" layoutY="598.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="rctWall19" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="72.0" layoutX="78.0" layoutY="452.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="rctWall20" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="10.0" layoutX="78.0" layoutY="667.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="rctWall21" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="80.0" layoutX="78.0" layoutY="597.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="rctWall22" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="10.0" layoutX="336.0" layoutY="597.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="rctWall23" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="80.0" layoutX="505.0" layoutY="446.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="rctWall24" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="80.0" layoutX="506.0" layoutY="594.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="rctWall25" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="10.0" layoutX="407.0" layoutY="444.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="rctWall26" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="80.0" layoutX="336.0" layoutY="442.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="rctWall27" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="10.0" layoutX="408.0" layoutY="667.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="rctWall28" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="80.0" layoutX="336.0" layoutY="597.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="rctWall29" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="10.0" layoutX="336.0" layoutY="514.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="rctWall30" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="10.0" layoutX="150.0" layoutY="516.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="rctWall31" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="10.0" layoutX="78.0" layoutY="444.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="rctWall32" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="10.0" layoutX="78.0" layoutY="370.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="rctWall33" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="10.0" layoutX="78.0" layoutY="152.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="rctWall34" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="10.0" layoutX="150.0" layoutY="221.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="rctWall35" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="10.0" layoutX="336.0" layoutY="219.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="108.0" />
+      <Rectangle fx:id="rctWall36" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="10.0" layoutY="737.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="595.0" />
+      <Rectangle fx:id="rctWall37" arcHeight="5.0" arcWidth="5.0" fill="#0c00ff" height="10.0" layoutY="79.0" smooth="false" stroke="#eeff00" strokeType="INSIDE" width="594.0" />
+      <ImageView fx:id="imgCoin2" fitHeight="43.0" fitWidth="30.0" layoutX="408.0" layoutY="173.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCoin3" fitHeight="43.0" fitWidth="30.0" layoutX="153.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCoin4" fitHeight="43.0" fitWidth="30.0" layoutX="416.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCoin5" fitHeight="43.0" fitWidth="30.0" layoutX="153.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCoin6" fitHeight="43.0" fitWidth="30.0" layoutX="408.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCoin7" fitHeight="43.0" fitWidth="30.0" layoutX="153.0" layoutY="623.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCoin8" fitHeight="43.0" fitWidth="30.0" layoutX="411.0" layoutY="623.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../coin.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblPoints" layoutX="23.0" layoutY="36.0" text="Points: 0" textFill="YELLOW">
+         <font>
+            <Font name="Gill Sans MT" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblLevel" layoutX="31.0" layoutY="14.0" text="Level: 1" textFill="YELLOW">
+         <font>
+            <Font name="Gill Sans MT" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNext" alignment="CENTER" layoutX="492.0" layoutY="17.0" onMouseClicked="#startLevel" prefHeight="23.0" prefWidth="91.0" style="-fx-background-color: #0059ff; -fx-border-color: yellow;" text="Start Level" textFill="YELLOW">
+         <font>
+            <Font name="Gill Sans MT" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgPlayer" fitHeight="57.0" fitWidth="45.0" layoutX="275.0" layoutY="385.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ghost.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgEnemyTwo" fitHeight="57.0" fitWidth="45.0" layoutX="175.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pacmanPink.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgEnemyOne" fitHeight="57.0" fitWidth="45.0" layoutX="20.0" layoutY="684.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pacman.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgEnemyThree" fitHeight="57.0" fitWidth="45.0" layoutX="525.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pacmanGreen.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="492.0" layoutY="43.0" onMouseClicked="#quitGame" prefHeight="23.0" prefWidth="91.0" style="-fx-background-color: #0059ff; -fx-border-color: yellow;" text="Quit Game" textFill="YELLOW">
+         <font>
+            <Font name="Gill Sans MT" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgEnemyFour" disable="true" fitHeight="57.0" fitWidth="45.0" layoutX="20.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../pacmanBlue.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="190.0" layoutY="7.0" opacity="0.39" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../title.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgMusic" fitHeight="43.0" fitWidth="45.0" layoutX="386.0" layoutY="23.0" onMousePressed="#musicButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../volume1.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblOutput" alignment="CENTER" layoutX="182.0" layoutY="102.0" prefHeight="43.0" prefWidth="230.0" textFill="YELLOW">
+         <font>
+            <Font name="Gill Sans MT" size="31.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="435.0" layoutY="43.0" onMouseClicked="#info" prefHeight="23.0" prefWidth="55.0" style="-fx-background-color: #0059ff; -fx-border-color: yellow;" text="Info" textFill="YELLOW">
+         <font>
+            <Font name="Gill Sans MT" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
